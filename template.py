@@ -18,8 +18,8 @@ for dir_ in dirs:
         pass
 # .gitignore is also used to list files that should be ignored by Git when looking for untracked files.
 files = [
-    "dvc.yml",
-    "params.yml",
+    "dvc.yaml",
+    "params.yaml",
     ".gitignore",
     os.path.join("src", "__init__.py")
 ]
