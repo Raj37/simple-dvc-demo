@@ -23,6 +23,7 @@ def get_data(config_path):
     return df
     # extra comment to trigger dvc workflow again as it will make changes in md5 & size of file wrt dvc.lock
     # and retrigger workflow using cmd: dvc repro
+    # running again after making changes in split_data.py file
 
 
 if __name__ == "__main__":
