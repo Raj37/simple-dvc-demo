@@ -17,10 +17,12 @@ def read_params(config_path):
 def get_data(config_path):
     config = read_params(config_path)
     # print(config)
-    data_path = config["base"]["data_source"]["s3_source"]
+    data_path = config["data_source"]["s3_source"]
     df = pd.read_csv(data_path, sep=",", encoding="utf-8")
     # print(df.head())
     return df
+    # extra comment to trigger dvc workflow again as it will make changes in md5 & size of file wrt dvc.lock
+    # and retrigger workflow using cmd: dvc repro
 
 
 if __name__ == "__main__":
