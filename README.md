@@ -20,3 +20,6 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
 8. dvc add data_given/winequality.csv
 9. git add .
 10. git commit -m "first commit"
+
+tox library- it's a test automation project. tox creates a virtual env for you based on your requirements and 
+we can specify the environments suppose we want to test app for python 2.7 (legacy) and python 3.7 (latest)
