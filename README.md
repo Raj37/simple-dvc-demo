@@ -23,3 +23,24 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
 
 tox library- it's a test automation project. tox creates a virtual env for you based on your requirements and 
 we can specify the environments suppose we want to test app for python 2.7 (legacy) and python 3.7 (latest)
+
+11. tox command
+```bash
+tox
+```
+for rebuilding tox env
+```bash
+tox -r
+```
+12. pytest command
+```bash
+pytest -v 
+```
+13. setup command
+```bash
+pip install -e . 
+```
+14. build your own package command
+```bash
+python setup.py sdist bdist_wheel
+```
