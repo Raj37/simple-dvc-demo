@@ -8,3 +8,6 @@ sklearn
 pandas
 pytest
 tox
+
+# track/check the goodness of code
+flake8

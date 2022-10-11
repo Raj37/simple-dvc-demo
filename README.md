@@ -44,3 +44,4 @@ pip install -e .
 ```bash
 python setup.py sdist bdist_wheel
 ```
+PEP 8 style guideline -> is standard guideline provided by Python to developer community
